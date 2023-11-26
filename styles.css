@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: local('Roboto-Regular'), local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Roboto-Regular.woff') format('woff'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+    margin: 20px;
+    padding: 0;
+  }
+
+  input {
+    padding: 8px;
+    margin-bottom: 10px;
+    width: 500px;
+    height: 61px;
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 48px;
+    line-height: 56.25px;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    
+  }
+.app{
+    width: 661px;
+    height: auto;
+    background-color:#C4C4C4 ;
+    padding: 62px 84px 72px 77px;
+    box-sizing: border-box;
+}
+.autocomplete{
+    width: 100%;
+}
+.autocomplete-item {
+    height: 44px;
+    cursor: pointer;
+    font-size: 30px;
+    line-height: 44px;
+    border: solid 2px #000000;
+    box-sizing: border-box;
+    background-color: #E3E3E3;
+    padding-left: 13px ;
+    
+  }
+
+  .repositories-list {
+    margin-top: 45px;
+  }
+
+  .repository-item {
+    width: 500px;
+    box-sizing: border-box;
+    min-height: 101px;
+    border: solid 1px #000000;
+    padding: 8px 16px;
+    font-size: 24px;
+    cursor: pointer;
+    position: relative;
+    background-color: #E27BEB;
+  }
+
+  .delete-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 31px;
+    right: 34px;
+    color: red;
+    width: 42px;
+    height: 39px;
+    border: none;
+border-radius: 100px;
+background:
+linear-gradient(45deg, transparent calc(50% - 3px), #FF0000 calc(50% - 3px), #FF0000 calc(50% + 3px), transparent calc(50% + 3px)),
+linear-gradient(-45deg, transparent calc(50% - 3px), #FF0000 calc(50% - 3px), #FF0000 calc(50% + 3px), transparent calc(50% + 3px));
+  }
+  
+
+  
